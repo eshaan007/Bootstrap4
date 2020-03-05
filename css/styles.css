@@ -1,17 +1,16 @@
-.row-header{
-    margin:0px auto;
-    padding:0px;
-}
+  
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px; }
 
 .row-content {
-    margin:0px;
-    padding: 50px 0px 50px 0px;
-    border-bottom: 1px ridge;
-    min-height:400px;
-}
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px; }
 
 .footer{
-    background-color: rgba(234, 150, 245, 0.747);
+    background-color: rgba(151, 151, 151, 0.747);
     margin:0px auto;
     padding: 20px 0px 20px 0px;
 }
@@ -23,16 +22,14 @@
     color:floralwhite;
 }
 
-address{
-    font-size:80%;
-    margin:0px;
-    color:#0f0f0f;
-}
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f; }
 
 body {
-    padding : 50px 0px 0px 0px;
-    z-index: 0;
-}
+  padding: 50px 0px 0px 0px;
+  z-index: 0; }
 
 .navbar-dark {
     background-color: #333366;
@@ -49,16 +46,16 @@ body {
     background:rgba(82, 6, 92, 0.747);
 }
 
-.carousel-item {
-  height: 300px;
-}
+#carousel-button {
+  right: 0px;
+  position: absolute;
+  bottom: 0px; }
 
-.carousel-item img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-height: 300px;
-}
+.modal .modal-header {
+  background-color: #512DA8;
+  color: floralwhite; }
+  .modal .modal-header button {
+    color: floralwhite; }
 
 .logo {
     height: 45px;
